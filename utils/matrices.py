@@ -114,7 +114,7 @@ def make_boxed_tensor_latex(x, _global_width=None):
 
 
 def show_boxed_tensor_latex(x):
-    disp.display(disp.Latex(r"\[" + make_boxed_tensor_latex(x) + r"\]"))
+    disp.display(disp.Latex(r"$$" + make_boxed_tensor_latex(x) + r"$$"))
 
 
 
